@@ -16,3 +16,12 @@ If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has a
    1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
    2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
 2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+
+提交类型 描述
+feat 新功能（feature），表示从无到有，新增的功能
+fix 修补 bug
+docs 文档（documentation）
+style 格式（不影响代码运行的改动）
+refactor 重构（既不是新增功能，也不是修改 bug 的代码改动），或者增强逻辑功能
+test 增加测试，一般是单测和功能代码一起提交用 feat，但若后面补一些单测，用这个
+chore 构建过程或辅助工具的变动，比如：pom、Dockfile 等文件的改动
